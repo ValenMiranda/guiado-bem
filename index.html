@@ -6,9 +6,40 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Ejercicio Guiado BEM</title>
 	<!-- Link archivo css-->
-	
+	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-
+	<header>
+		<ul class="a-menu">
+			<li class="a-menu__item">
+			<a href="" class="a-menu__item__link">BLOG</a></li>
+			<li class="a-menu__item">
+			<a href="" class="a-menu__item__link">ABOUT</a></li>
+			<li class="a-menu__item">
+			<a href="" class="a-menu__item__link">CONTACTO</a></li>
+		</ul>
+	</header>
+	<section>
+		<div class="article">
+			<h2 class="article_title">Mermeladas</h2>
+			<p class="article_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, fugit. Asperiores doloribus mollitia nisi libero eius beatae adipisci aliquam sequi esse earum! Atque debitis earum, dolores, officiis quisquam excepturi! Aspernatur.</p>
+			<img class="article__img" src="img/mermeladas pirque.jpg" alt="">
+		</div>
+		<div class="article article--green">
+			<h2 class="article_title">Mermeladas</h2>
+			<p class="article_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, fugit. Asperiores doloribus mollitia nisi libero eius beatae adipisci aliquam sequi esse earum! Atque debitis earum, dolores, officiis quisquam excepturi! Aspernatur.</p>
+			<img class="article__img" src="img/comida-vegana-230x130.jpg" alt="">
+		</div>
+		<div class="article article--green">
+			<h2 class="article_title">Mermeladas</h2>
+			<p class="article_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, fugit. Asperiores doloribus mollitia nisi libero eius beatae adipisci aliquam sequi esse earum! Atque debitis earum, dolores, officiis quisquam excepturi! Aspernatur.</p>
+			<img class="article__img" src="img/MIEL-DE-ABEJA-230x130.png" alt="">
+		</div>
+	</section>
+	<footer class="pie">
+		<p class="pie__item--center">
+			Create by Someone
+		</p>
+	</footer>
 </body>
 </html>
